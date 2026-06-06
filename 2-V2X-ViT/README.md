@@ -1,7 +1,12 @@
 # V2X-ViT: Vehicle-to-Everything Perception with Vision Transformer
-#### V2X-ViT: Attention-based Cooperative Perception for Connected Vehicles
-##### Published as a conference paper
-##### R. Xu, et al.
+
+#### V2X-ViT: Attention-based Cooperative Perception for Connected Vehicles  
+##### Published as a conference paper  
+##### Runsheng Xu¹?, Hao Xiang¹?, Zhengzhong Tu²?, Xin Xia¹, Ming-Hsuan Yang³,⁴, and Jiaqi Ma¹†  
+¹ University of California, Los Angeles  
+² University of Texas at Austin  
+³ Google Research  
+⁴ University of California, Merced  
 
 
 
@@ -15,11 +20,12 @@ This research addresses the challenge of **cooperative perception** in connected
 
 Reliable V2X cooperative perception enables AVs to:
 
-- Detect occluded or far-away objects
-- Improve safety and situational awareness
-- Make informed driving decisions in dense environments
+- Detect occluded or far-away objects  
+- Improve safety and situational awareness  
+- Make informed driving decisions in dense environments  
 
 This requires **attention-aware fusion** and handling **temporal delays** and **heterogeneous sensors**.
+
 
 
 ## Insights
@@ -68,7 +74,6 @@ V2X-ViT consists of several stages:
 - The model maintains high performance under noisy settings (pose error and delay).  
 - Attention maps demonstrate that the model focuses on informative agents, e.g., infrastructure in occluded regions.  
 - MSwin improves robustness against localization errors, and DPE handles asynchronous message propagation effectively.
-
 
 
 
