@@ -3,13 +3,13 @@
 ##### Published as a conference paper
 ##### R. Xu, et al.
 
----
+
 
 ## Problem
 
 This research addresses the challenge of **cooperative perception** in connected autonomous vehicles (AVs) and infrastructure. Single-agent perception is limited by occlusion, viewpoint, and sensor range. Sharing information between AVs and infrastructure can improve detection, but fusing multi-agent LiDAR data effectively under asynchronous communication and bandwidth constraints is non-trivial.
 
----
+
 
 ## Importance
 
@@ -21,7 +21,6 @@ Reliable V2X cooperative perception enables AVs to:
 
 This requires **attention-aware fusion** and handling **temporal delays** and **heterogeneous sensors**.
 
----
 
 ## Insights
 
@@ -30,7 +29,7 @@ This requires **attention-aware fusion** and handling **temporal delays** and **
 - Multi-scale spatial attention (MSwin) enhances robustness against localization errors.  
 - Delay-aware positional encoding (DPE) allows the model to compensate for asynchronous message arrival.
 
----
+
 
 ## Mechanism
 
@@ -51,7 +50,7 @@ V2X-ViT consists of several stages:
 
 5. **Detection Head**: Aggregated features are used to predict 3D bounding boxes for vehicles.
 
----
+
 
 ## Formulas (Optional Figures)
 
@@ -61,7 +60,7 @@ V2X-ViT consists of several stages:
 ### Delay-aware Positional Encoding (DPE)
 ![](./assets/3.png)
 
----
+
 
 ## Results
 
@@ -71,7 +70,7 @@ V2X-ViT consists of several stages:
 - MSwin improves robustness against localization errors, and DPE handles asynchronous message propagation effectively.
 
 
----
+
 
 ## Key Takeaways
 
