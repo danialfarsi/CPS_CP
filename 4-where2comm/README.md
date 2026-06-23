@@ -41,7 +41,7 @@ However, these benefits depend on **efficient and adaptive communication strateg
 
 
 ## Mechanism
-![](./assets/1.png)
+![](./assets/Screenshot 1405-04-02 at 13.19.46.png)
 
 Where2comm consists of five main components:
 
